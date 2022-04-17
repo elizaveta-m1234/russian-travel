@@ -1,0 +1,21 @@
+.header {
+    width: 100%;
+    height: 52px;
+    margin: 0 48px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 984px) {
+    .header {
+        margin: 0 24x; 
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .header {
+        margin: 0 26px;
+        height: 42;
+    }
+}

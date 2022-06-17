@@ -7,11 +7,17 @@
     text-align: center;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 1140px) {
     .lead__subtitle {
-    max-width: 288px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.25;
+        margin: 32px auto 56px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .lead__subtitle {
+        margin: 16px auto 40px;
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 1.25;
     }
 }

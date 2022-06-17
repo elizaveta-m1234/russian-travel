@@ -2,12 +2,10 @@
     margin: 0 0 32px 0;
     max-width: 560px;
     font-weight: 900;
-    z-index: 1;
-    color: #fff;
-    text-decoration: none;
     font-size: 72px;
     line-height: 1.06;
     text-align: center;
+    color: #fff;
 }
 
 @media screen and (max-width: 568px) {
@@ -15,5 +13,6 @@
         margin: 0 0 16px 0;
         font-size: 32px;
         line-height: 1.09;
+        max-width: 250px;
     }
 }

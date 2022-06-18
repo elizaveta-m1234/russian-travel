@@ -2,7 +2,6 @@
     min-height: 740px;
     box-sizing: border-box;
     text-decoration: none;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,11 +31,13 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 1440px) {
+/*@media screen and (max-width: 1440px) {
     .cover__background {
         min-height: 640px;
     }
 }
+На разрешении 1024 высота блока должна быть 640px, закомментировала из-за замечания ревьюера
+*/
 
 @media screen and (max-width: 984px) {
     .cover__background {
@@ -47,6 +48,5 @@
 @media screen and (max-width: 568px) {
     .cover__background {
         min-height: 200px;
-        padding: 10px;
     }
 }

@@ -10,7 +10,8 @@
     flex-direction: column;
     margin: 0 auto;
     padding: 33px 0 24px;
-    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 @media screen and (max-width: 1140px) {
